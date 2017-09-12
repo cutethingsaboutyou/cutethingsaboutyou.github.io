@@ -5,6 +5,10 @@ var compliments = ["CUTE", "NICE", "RESPECTFUL", "SMART", "FUNNY", "GOOD", "FUN"
   "ADORABLE", "PERFECT", "CUTE", "NICE", "SHY", "FUN", "FUNNY", "EXCELLENT",
   "HOT", "PERFECT", "THE BEST", "CUTE"];
 
+function shortcut(){
+  counters = [19, 0, 17];
+}
+
 window.onload = function(){
   var message = document.getElementById("message");
   var disp1 = document.getElementById("disp1");
@@ -66,7 +70,7 @@ function checkName (){
     document.body.style.backgroundImage = "url(http://bestanimations.com/Signs&Shapes/Hearts/manyhearts/pretty-hearts-flying-up-animated-gif.gif)";
     document.body.style.color = "#191919";
     return "Tasha Ann Steele. <br><br>" +
-    "The cutest, most beautiful, best, nicest, sweetest, smartest person ever" +
+    "The cutest, most beautiful, best, nicest, sweetest, smartest person ever." +
     "<br><br><b><big>Will you go to homecoming with me?</big></b><br><br> <small>-Alex Anderson</small> <br><br><br>";
   }
     document.documentElement.style.backgroundImage = "";
