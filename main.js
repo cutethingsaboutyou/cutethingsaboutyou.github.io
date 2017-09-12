@@ -62,8 +62,18 @@ window.onload = function(){
 
 function checkName (){
   if(alph[counters[0]] == "T" && alph[counters[1]] == "A" && alph[counters[2]] == "S"){
-    return "You are Tasha Ann Steele. <br><br><big>Will you go to homecoming with me?</big><br><br> -Alex Anderson";
+    document.documentElement.style.backgroundImage = "url(https://i.giphy.com/media/VlzUkJJzvz0UU/giphy.webp)";
+    document.body.style.backgroundImage = "url(http://bestanimations.com/Signs&Shapes/Hearts/manyhearts/pretty-hearts-flying-up-animated-gif.gif)";
+    document.body.style.color = "#191919";
+    return "Tasha Ann Steele. <br><br>" +
+    "The cutest, most beautiful, best, nicest, sweetest, smartest person ever" +
+    "<br><br><b><big>Will you go to homecoming with me?</big></b><br><br> <small>-Alex Anderson</small> <br><br><br>";
   }
+    document.documentElement.style.backgroundImage = "";
+    document.body.style.backgroundImage = "";
+    document.documentElement.style.backgroundColor = "#191919";
+    document.body.style.backgroundColor = "#191919";
+    document.body.style.color = "#ECECEC";
   var comp = ""
   if(compliments[counters[0]] == compliments[counters[1]] && compliments[counters[1]] == compliments[counters[2]]){
     comp += compliments[counters[0]];
